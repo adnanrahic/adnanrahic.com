@@ -1,0 +1,32 @@
+{
+  "name": "site2",
+  "version": "1.0.0",
+  "description": "**I'm not using this theme anymore.** **New maintainer wanted**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build && git push origin `git subtree split --prefix public master`:master --force",
+    "start": "hugo -D server --disableFastRender",
+    "build": "$(npm bin)/hugo && cp CNAME ./public",
+    "compile": "./compile.sh",
+    "lint": "$(npm bin)/standard",
+    "dev": "npm run lint && npm start",
+    "prod": "rm -rf ./public && npm run build && npm run compile && cd ./public && python -m SimpleHTTPServer",
+    "prod-no-compile": "rm -rf ./public && npm run build && cd ./public && python -m SimpleHTTPServer"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3",
+    "clean-css-cli": "^4.1.11",
+    "html-minifier": "^3.5.16"
+  },
+  "devDependencies": {
+    "hugo-cli": "^0.5.4",
+    "hugo-lunr": "0.0.4",
+    "standard": "^11.0.1"
+  }
+}

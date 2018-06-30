@@ -1,0 +1,38 @@
+baseurl = "https://adnanrahic.com"
+title = "@adnanrahic"
+canonifyurls = true
+paginate = 10
+languageCode = "en-us"
+copyright = "Coded with <3 by yours truly."
+# googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
+# disqusShortname = "YourDisqusShortname" #delete or comment to disable Disqus comments
+
+[author]
+  name = "Adnan Rahić"
+
+[params]
+  DateForm = "Mon, Jan 2, 2006"
+  Description = "Your site description"
+  Author = "Adnan Rahić"
+  AuthorLink = "https://twitter.com/adnanrahic"
+  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = true #set to false to exclude read time from header of post
+
+[[params.social]]
+  title = "twitter"
+  url = "https://twitter.com/adnanrahic"
+[[params.social]]
+  title = "github"
+  url = "https://github.com/adnanrahic"
+[[params.social]]
+  title = "facebook"
+  url = "https://www.facebook.com/raha198"
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 100
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 200

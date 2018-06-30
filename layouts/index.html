@@ -1,0 +1,45 @@
+{{ partial "header.html" .}}
+
+<!-- Page Header -->
+<header class="intro-header" style="
+background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url('{{ .Site.BaseURL }}/img/home.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading">
+          <h1>Hi!<br> I'm Adnan Rahić</h1>
+          <hr class="small">
+          <h1 class="subheading">Who am I?<br> Well, I author this blog, write code for a living and share my knowledge with the world.</h1>
+          <span class="subheading"><a href="/about">Follow me</a> on social media if you like what I do.</span>
+          <span class="subheading">Or, scroll down to see what I've been hacking on.</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <h2 align="center">Blog</h2>
+      <hr>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }} {{ range first $posts (where .Data.Pages "Type" "post") }} {{ .Render "summary"}} {{ end }}
+      <!-- Pager -->
+      <ul class="pager">
+        <li class="next">
+          <a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+{{ partial "footer.html" .}}
