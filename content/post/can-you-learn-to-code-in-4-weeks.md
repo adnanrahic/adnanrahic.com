@@ -2,14 +2,16 @@
 title: "Can you learn to code in 4 weeks?"
 date: 2016-12-03T20:03:26+02:00
 description: "Well, no. Isn’t it obvious?"
-draft: true
+draft: false
 image: "img/post-bg.jpg"
 tags: [
+    "startup",
+    "programming",
     "webdev",
     "motivation"
 ]
 categories: [
-    "webdev"
+    "Motivation"
 ]
 comments: true
 canonical: "https://medium.com/@adnanrahic/can-you-learn-to-code-in-4-weeks-a68441205ddd"
