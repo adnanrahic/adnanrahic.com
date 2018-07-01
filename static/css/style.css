@@ -44,3 +44,7 @@ a:hover, a:focus {
   background-color: #02B875 !important;
   border: 1px solid #02B875 !important;
 }
+
+::selection {
+  background: #02B875 !important;
+}
