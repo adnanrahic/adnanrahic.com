@@ -1,7 +1,7 @@
 {
     "name": "Hi! I'm Adnan Rahic and this is my blog!",
     "short_name": "AdnanRahic",
-    "start_url": ".",
+    "start_url": "https://adnanrahic.com/",
     "description": "Who am I? Well, I author this blog, write code for a living and share my knowledge with the world.",
     "icons": [
         {
