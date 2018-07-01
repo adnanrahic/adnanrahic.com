@@ -2,7 +2,7 @@
 
 <!-- Page Header -->
 {{ if .Params.image }}
-<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}{{ .Params.image }}')">
+<header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/{{ .Params.image }}')">
 {{ else }}
 <header class="intro-header" style="background-image: url('{{ .Site.BaseURL }}/img/home-bg.jpg')">
 {{ end }}
