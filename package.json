@@ -8,7 +8,7 @@
     "deploy": "npm run build && git push origin `git subtree split --prefix public master`:master --force",
     "start": "hugo -D server --disableFastRender",
     "build-local": "$(npm bin)/hugo && cp CNAME ./public",
-    "build": "hugo && cp CNAME ./public",
+    "build": "hugo",
     "compile": "./compile.sh",
     "lint": "$(npm bin)/standard",
     "dev": "npm run lint && npm start",
