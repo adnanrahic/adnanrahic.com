@@ -14,7 +14,7 @@
     "dev": "npm run lint && npm start",
     "prod": "rm -rf ./public && npm run build && npm run compile && cd ./public && python -m SimpleHTTPServer",
     "prod-no-compile": "rm -rf ./public && npm run build-local && cd ./public && python -m SimpleHTTPServer",
-    "prod-compile": "rm -rf ./public && npm run build && npm run compile"
+    "prod-compile": "rm -rf ./public && npm run build-local && npm run compile"
   },
   "keywords": [],
   "author": "",
