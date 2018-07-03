@@ -4,4 +4,4 @@ sudo apt-get install jpegoptim
 sudo apt-get install optipng
 cd static/img
 jpegoptim *.jpg
-optipng *.png
+# optipng *.png
