@@ -17,6 +17,7 @@ copyright = "Coded with <3 by yours truly."
   AuthorLink = "https://twitter.com/adnanrahic"
   postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = true #set to false to exclude read time from header of post
+  email = "ado.raha198@gmail.com"
 
 [[params.social]]
   title = "twitter"
@@ -27,6 +28,12 @@ copyright = "Coded with <3 by yours truly."
 [[params.social]]
   title = "facebook"
   url = "https://www.facebook.com/raha198"
+[[params.social]]
+  title = "medium"
+  url = "https://medium.com/@adnanrahic"
+[[params.social]]
+  title = "instagram"
+  url = "https://www.instagram.com/r.a.h.a.198/"
 
 [[menu.main]]
   name = "About"
