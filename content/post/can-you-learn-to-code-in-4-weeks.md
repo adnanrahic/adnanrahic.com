@@ -3,12 +3,12 @@ title: "Can you learn to code in 4 weeks?"
 date: 2016-12-03T20:03:26+02:00
 description: "Well, no. Isn’t it obvious?"
 draft: false
-image: "img/post-bg.jpg"
+image: "https://cdn-images-1.medium.com/max/1000/1*SrGs_33EA0jm9L245NQXug.jpeg"
 tags: [
-    "startup",
-    "programming",
-    "webdev",
-    "motivation"
+    "Startup",
+    "Programming",
+    "Webdev",
+    "Motivation"
 ]
 categories: [
     "Motivation"
@@ -28,6 +28,7 @@ You might be asking yourself, well what about all the courses out there. They al
 
 Do you understand now? Coding is experience. Knowledge of what has been, and things you have seen. All working in unison, towards a common goal. To solve that problem you are in such a need to solve. Just as a blacksmith needs to condition himself every day, by hammering away on a piece of armor, until reaching perfection. Programmers do the same, with their brains. Hammering away, on this algorithm, and that function to find an ingenious way of solving a mystery.
 
+<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1000/1*Yk6A5CY6bzvvAyDT9f5YzQ.jpeg" src="/img/loader.svg">
 
 Don’t take this the wrong way. I’m only trying to encourage you. Don’t give up in your quest of becoming a developer. Because it is hard, very hard. I still remember the long sleepless nights I spent banging my head against various programming assignments. You will too. But it will only make you stronger.
 
@@ -43,6 +44,6 @@ Where to start? From the very beginning. The worst thing one can do is to rush t
 
 ---
 
-Join my newsletter for updates!
+<iframe src="https://upscri.be/b6f3d5?as_embed" height="400" frameborder="0" style="width:100%;max-width:800px;margin:0 auto;"></iframe>
 
 Feel free to follow me on social media. Links are below!
