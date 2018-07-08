@@ -20,7 +20,7 @@
   p a {
     text-decoration: underline
   }
-  
+
   blockquote p {
     margin: 0;
   }
@@ -164,6 +164,23 @@
     background-size: cover;
     -o-background-size: cover;
     margin-bottom: 50px
+  }
+
+  .post-header::before {
+    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+    content:"";
+    display: block;
+    height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  @media only screen and (min-width:768px) {
+    .post-header::before {
+      height: 580px;
+    }
   }
 
   .intro-header .site-heading,
@@ -399,6 +416,7 @@
   .btn-default {
     transition: all 0.3s;
   }
+
   .btn-default:hover,
   .btn-default:focus {
     color: #fff;
@@ -535,5 +553,18 @@
     font-size: 14px;
     display: block;
     text-align: center;
+  }
+
+  .b-lazy {
+    -webkit-transition: opacity 500ms ease-in-out;
+    -moz-transition: opacity 500ms ease-in-out;
+    -o-transition: opacity 500ms ease-in-out;
+    transition: opacity 500ms ease-in-out;
+    max-width: 100%;
+    opacity: 0;
+  }
+
+  .b-lazy.b-loaded {
+    opacity: 1;
   }
 </style>

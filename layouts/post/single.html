@@ -3,14 +3,9 @@
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
     {{ if isset .Params "image" }}
-    <header class="intro-header" style="
-      background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url('{{ .Params.image }}');
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: 30% 50%;
-    ">
+    <header class="intro-header post-header b-lazy" data-src="{{ .Params.image }}">
     {{ else }}
-    <header class="intro-header" style="background-image: url('/img/post-bg.jpg')">
+    <header class="intro-header post-header" style="background-image: url('/img/post-bg.jpg')">
     {{ end }}
       <div class="container">
         <div class="row">

@@ -61,7 +61,7 @@ machine, the respective version of Node.js for my operating system is listed. Go
 ahead, download and install it. This will give you the tools needed to run a
 server on your local machine.
 
-<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1000/1*LWV8A-Fk2YAYfPtWXrtKtQ.png" src="/img/loader.svg">
+<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1000/1*LWV8A-Fk2YAYfPtWXrtKtQ.png" src="/img/loading.svg">
 
 *****
 
@@ -180,7 +180,7 @@ After running the command, load [http://localhost:3000/](http://localhost:3000/)
 in a browser to see the output. You should also see “Example app listening on
 port 3000!” get logged to the command line.
 
-<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1750/1*vAF8KgTWu6983trFjK3zew.png" src="/img/loader.svg">
+<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1750/1*vAF8KgTWu6983trFjK3zew.png" src="/img/loading.svg">
 <span class="figcaption_hack">Wow, so much output!</span>
 
 That’s it, you’re done. You have successfully created your first Node app. Don’t
@@ -191,7 +191,7 @@ offer.
 
 Your finished app should have a folder structure somewhat resembling this.
 
-<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1000/1*QJPDVqdT5sdGyZqWn7LHCw.png" src="/img/loader.svg">
+<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1000/1*QJPDVqdT5sdGyZqWn7LHCw.png" src="/img/loading.svg">
 <span class="figcaption_hack">Folder structure — green for folders — blue for files</span>
 
 *****

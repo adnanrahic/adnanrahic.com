@@ -35,11 +35,16 @@ copyright = "Coded with <3 by yours truly."
   title = "instagram"
   url = "https://www.instagram.com/r.a.h.a.198/"
 
+
+[[menu.main]]
+  name = "Blog"
+  url = "/"
+  weight = 100
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 100
+  weight = 200
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
-  weight = 200
+  weight = 300

@@ -28,7 +28,7 @@ You might be asking yourself, well what about all the courses out there. They al
 
 Do you understand now? Coding is experience. Knowledge of what has been, and things you have seen. All working in unison, towards a common goal. To solve that problem you are in such a need to solve. Just as a blacksmith needs to condition himself every day, by hammering away on a piece of armor, until reaching perfection. Programmers do the same, with their brains. Hammering away, on this algorithm, and that function to find an ingenious way of solving a mystery.
 
-<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1000/1*Yk6A5CY6bzvvAyDT9f5YzQ.jpeg" src="/img/loader.svg">
+<img class="b-lazy" data-src="https://cdn-images-1.medium.com/max/1000/1*Yk6A5CY6bzvvAyDT9f5YzQ.jpeg" src="/img/loading.svg">
 
 Don’t take this the wrong way. I’m only trying to encourage you. Don’t give up in your quest of becoming a developer. Because it is hard, very hard. I still remember the long sleepless nights I spent banging my head against various programming assignments. You will too. But it will only make you stronger.
 
