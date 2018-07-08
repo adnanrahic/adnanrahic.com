@@ -1,10 +1,8 @@
 {{ partial "header.html" .}}
 
 <!-- Page Header -->
-<header class="intro-header" style="
-background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7)), url('{{ .Site.BaseURL }}/img/home.jpg');
-background-size: cover;
-background-repeat: no-repeat;
+<header class="intro-header b-lazy" data-src="/img/home.jpg" style="
+background-color: rgba(0,0,0,0.5);
 background-position: 30% 50%;
 ">
   <div class="container">
@@ -13,8 +11,12 @@ background-position: 30% 50%;
         <div class="site-heading">
           <h1>Hi!<br> I'm Adnan Rahić</h1>
           <hr class="small">
-          <h1 class="subheading">Who am I?<br> Well, I author this blog, write code for a living and share my knowledge with the world.</h1>
-          <span class="subheading"><a href="/about">Follow me</a> on social media if you like what I do.</span>
+          <h2 class="subheading">Who am I?<br> Well, I <b>author this blog, write code</b> for a living and <b>share my knowledge</b> with the world.</h2>
+          <span class="subheading">
+            I'm one of the youngest <b>serverless influencers</b> in the world. 
+            <br>
+            <b><a href="/about">Follow me</a> on social media</b> if you like what I do.
+          </span>
           <span class="subheading">Or, scroll down to see what I've been hacking on.</span>
         </div>
       </div>

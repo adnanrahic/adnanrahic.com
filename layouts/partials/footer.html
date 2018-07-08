@@ -1,45 +1,49 @@
-    <hr>
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                  <ul class="list-inline text-center">
-                    {{ with .Site.Params.email }}
-                      <li>
-                        <a href="mailto:{{ . }}">
-                          <span class="fa-stack fa-lg">
-                            <i class="fa fa-circle fa-stack-2x"></i>
-                            <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
-                          </span>
-                        </a>
-                      </li>
-                    {{ end }}
-                    {{ if isset .Site.Params "social" }}
-                    {{ range .Site.Params.social }}
-                    <li>
-                      <a href="{{ .url }}" target="_blank">
-                        <span class="fa-stack fa-lg">
-                          <i class="fa fa-circle fa-stack-2x"></i>
-                          <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
-                        </span>
-                      </a>
-                    </li>
-                    {{ end }}
-                    {{ end }}
-                  </ul>
-                  <p class="copyright text-muted">{{ .Site.Copyright }}</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+<hr>
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-6 col-md-offset-3">
+        <iframe src="https://upscri.be/b6f3d5?as_embed" height="400" frameborder="0" style="width:100%;max-width:800px;margin:0 auto;"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center">
+          {{ with .Site.Params.email }}
+          <li>
+            <a href="mailto:{{ . }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }} {{ if isset .Site.Params "social" }} {{ range .Site.Params.social }}
+          <li>
+            <a href="{{ .url }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-{{ .title }} fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }} {{ end }}
+        </ul>
+        <p class="copyright text-muted">{{ .Site.Copyright }}</p>
+      </div>
+    </div>
+  </div>
+</footer>
 
-    <!-- Stylesheets -->
-    {{ partial "stylesheets.html" . }}
-    <!-- Scripts -->
-    {{ partial "scripts.html" . }}
-    <!-- GA -->
-    {{ template "_internal/google_analytics.html" . }}
+<!-- Stylesheets -->
+{{ partial "stylesheets.html" . }}
+<!-- Scripts -->
+{{ partial "scripts.html" . }}
+<!-- GA -->
+{{ template "_internal/google_analytics.html" . }}
 
 </body>
 

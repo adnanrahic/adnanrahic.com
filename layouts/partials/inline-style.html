@@ -156,6 +156,7 @@
   }
 
   .intro-header {
+    position: relative;
     background-color: gray;
     background: no-repeat center center;
     background-attachment: scroll;
@@ -165,16 +166,29 @@
     -o-background-size: cover;
     margin-bottom: 50px
   }
+  .intro-header::before {
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.7));
+    content:"";
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+  }
 
+  .post-header {
+    position: relative;
+  }
   .post-header::before {
     background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.5));
     content:"";
     display: block;
-    height: 400px;
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
+    top: 0;
+    bottom: 0;
+    left: 0;
   }
 
   @media only screen and (min-width:768px) {

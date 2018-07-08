@@ -41,9 +41,3 @@ Returning to the illusion of being able to learn to code in 4 weeks, there is on
 > — Joseph Weizenbaum, Computer Power and Human Reason
 
 Where to start? From the very beginning. The worst thing one can do is to rush the process of gaining knowledge. Nowhere is this more crucial than in programming. For without roots, a tree is nothing.
-
----
-
-<iframe src="https://upscri.be/b6f3d5?as_embed" height="400" frameborder="0" style="width:100%;max-width:800px;margin:0 auto;"></iframe>
-
-Feel free to follow me on social media. Links are below!
