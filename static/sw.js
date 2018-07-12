@@ -5,6 +5,6 @@ UpUp.start({
     'js/jquery.min.js',
     'js/bootstrap.min.js',
     'js/img-load.js',
-    '404.html'
+    'img/home.jpg'
   ]
 })
