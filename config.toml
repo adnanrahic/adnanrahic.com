@@ -31,9 +31,7 @@ copyright = "Have questions? Shoot me an email, or hit me up on social media! Th
 [[params.social]]
   title = "medium"
   url = "https://medium.com/@adnanrahic"
-[[params.social]]
-  title = "instagram"
-  url = "https://www.instagram.com/r.a.h.a.198/"
+
 
 
 [[menu.main]]
