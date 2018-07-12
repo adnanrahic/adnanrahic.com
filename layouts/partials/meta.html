@@ -2,7 +2,9 @@
 {{ .ReadingTime }} min read -
 {{ end }}
 Posted on {{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}
+
 <br />
 {{ partial "categories.html" .}}
+
 <br />
 {{ partial "tags.html" .}}

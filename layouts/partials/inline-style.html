@@ -311,10 +311,39 @@
     color: #404040
   }
 
-  .post-preview>.post-meta>a:hover,
-  .post-preview>.post-meta>a:focus {
-    color: #0085a1;
-    text-decoration: underline
+  .post-preview .post-meta a.tag,
+  .intro-header .post-heading .meta a.tag {
+    background: #eee;
+    border-radius: 3px;
+    color: #555;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+    margin: 5px 10px 0 0;
+    text-decoration: none;
+    transition: all 0.2s;
+    font-style: normal;
+  }
+
+  .post-preview .post-meta a.category {
+    font-style: italic;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  .post-preview .post-meta a.category:hover,
+  .post-preview .post-meta a.category:focus {
+    text-decoration: underline;
+    color: #02B875;
+  }
+
+  .post-preview .post-meta a.tag:hover,
+  .post-preview .post-meta a.tag:focus,
+  .intro-header .post-heading .meta a.tag:hover,
+  .intro-header .post-heading .meta a.tag:focus {
+    background-color: #02B875;
+    color: white !important;
   }
 
   @media only screen and (min-width:768px) {
