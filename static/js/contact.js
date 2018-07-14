@@ -27,13 +27,15 @@ form.addEventListener('submit', (e) => {
     dataType: "json"
   })
 
-  function success () {
+  function success (data) {
     success.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
     submit.disabled = false
+    console.log(data)
   }
 
-  function error () {
+  function error (err) {
     success.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
     submit.disabled = false
+    console.log(err)
   }
 })
