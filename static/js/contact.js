@@ -17,7 +17,7 @@ form.addEventListener('submit', (e) => {
     content: content.value
   }
 
-  $.post(url, payload, () => {
+  $.post(url, JSON.stringify(payload), () => {
     success.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
     submit.disabled = false
   })
