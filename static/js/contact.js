@@ -3,12 +3,12 @@ const form = document.getElementById('contactForm')
 const name = form.name
 const email = form.email
 const content = form.content
-const success = document.getElementById('success')
+const toast = document.getElementById('toast')
 const submit = document.getElementById('submit')
 
 form.addEventListener('submit', (e) => {
   e.preventDefault()
-  success.innerHTML = 'Sending'
+  toast.innerHTML = 'Sending'
   submit.disabled = true
 
   const payload = {
@@ -28,13 +28,17 @@ form.addEventListener('submit', (e) => {
   })
 
   function success (data) {
-    success.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
+    toast.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
     submit.disabled = false
-    console.log(data)
+    submit.blur()
+    name.value = ''
+    email.value = ''
+    content.value = ''
+    name.focus()
   }
 
   function error (err) {
-    success.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
+    toast.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
     submit.disabled = false
     console.log(err)
   }
