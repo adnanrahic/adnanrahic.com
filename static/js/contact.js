@@ -17,12 +17,23 @@ form.addEventListener('submit', (e) => {
     content: content.value
   }
 
-  $.post(url, JSON.stringify(payload), () => {
+  $.ajax({
+    type: "POST",
+    url: url,
+    data: JSON.stringify(payload),
+    success: success,
+    error: error,
+    contentType: "application/json; charset=utf-8",
+    dataType: "json"
+  })
+
+  function success () {
     success.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
     submit.disabled = false
-  })
-  .fail(() => {
+  }
+
+  function error () {
     success.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
     submit.disabled = false
-  })
+  }
 })
