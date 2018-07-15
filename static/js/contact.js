@@ -6,6 +6,20 @@ const content = form.content
 const toast = document.getElementById('toast')
 const submit = document.getElementById('submit')
 
+function post(url, body, callback) {
+  var req = new XMLHttpRequest();
+  req.open("POST", url, true);
+  req.setRequestHeader("Content-Type", "application/json");
+  req.addEventListener("load", function () {
+    if (req.status < 400) {
+      callback(null, JSON.parse(req.responseText));
+    } else {
+      callback(new Error("Request failed: " + req.statusText));
+    }
+  });
+  req.send(JSON.stringify(body));
+}
+
 form.addEventListener('submit', (e) => {
   e.preventDefault()
   toast.innerHTML = 'Sending'
@@ -16,15 +30,9 @@ form.addEventListener('submit', (e) => {
     email: email.value,
     content: content.value
   }
-
-  $.ajax({
-    type: "POST",
-    url: url,
-    data: JSON.stringify(payload),
-    success: success,
-    error: error,
-    contentType: "application/json; charset=utf-8",
-    dataType: "json"
+  post(url, payload, (err, res) => {
+    if (err) { return error(err) }
+    success(res)
   })
 
   function success (data) {
@@ -36,7 +44,6 @@ form.addEventListener('submit', (e) => {
     content.value = ''
     name.focus()
   }
-
   function error (err) {
     toast.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
     submit.disabled = false
