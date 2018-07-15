@@ -6,7 +6,6 @@ const content = form.content
 const toast = document.getElementById('toast')
 const submit = document.getElementById('submit')
 
-
 function post(url, body, callback) {
   var req = new XMLHttpRequest();
   req.open("POST", url, true);
@@ -19,6 +18,20 @@ function post(url, body, callback) {
     }
   });
   req.send(JSON.stringify(body));
+}
+function success () {
+  toast.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
+  submit.disabled = false
+  submit.blur()
+  name.value = ''
+  email.value = ''
+  content.value = ''
+  name.focus()
+}
+function error (err) {
+  toast.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
+  submit.disabled = false
+  console.log(err)
 }
 
 form.addEventListener('submit', (e) => {
@@ -35,19 +48,4 @@ form.addEventListener('submit', (e) => {
     if (err) { return error(err) }
     success()
   })
-
-  function success () {
-    toast.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
-    submit.disabled = false
-    submit.blur()
-    name.value = ''
-    email.value = ''
-    content.value = ''
-    name.focus()
-  }
-  function error (err) {
-    toast.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
-    submit.disabled = false
-    console.log(err)
-  }
 })
