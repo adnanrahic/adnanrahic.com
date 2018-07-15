@@ -23,10 +23,11 @@ function success () {
   toast.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
   submit.disabled = false
   submit.blur()
+  name.focus()
+  // what?
   name.value = ''
   email.value = ''
   content.value = ''
-  name.focus()
 }
 function error (err) {
   toast.innerHTML = 'There was an error with sending your message, hold up until I fix it. Thanks for waiting.'
