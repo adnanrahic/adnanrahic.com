@@ -1,10 +1,13 @@
-const url = 'https://h1ut990ogj.execute-api.us-east-1.amazonaws.com/dev/email/send'
 const form = document.getElementById('contactForm')
+if (!form) return
+
+const url = 'https://h1ut990ogj.execute-api.us-east-1.amazonaws.com/dev/email/send'
 const name = form.name
 const email = form.email
 const content = form.content
 const toast = document.getElementById('toast')
 const submit = document.getElementById('submit')
+
 
 function post(url, body, callback) {
   var req = new XMLHttpRequest();
@@ -32,10 +35,10 @@ form.addEventListener('submit', (e) => {
   }
   post(url, payload, (err, res) => {
     if (err) { return error(err) }
-    success(res)
+    success()
   })
 
-  function success (data) {
+  function success () {
     toast.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'
     submit.disabled = false
     submit.blur()
