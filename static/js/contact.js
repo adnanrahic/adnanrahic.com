@@ -1,6 +1,4 @@
 const form = document.getElementById('contactForm')
-if (!form) return
-
 const url = 'https://h1ut990ogj.execute-api.us-east-1.amazonaws.com/dev/email/send'
 const name = form.name
 const email = form.email
