@@ -31,7 +31,7 @@ function error (err) {
   console.log(err)
 }
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', function (e) {
   e.preventDefault()
   toast.innerHTML = 'Sending'
   submit.disabled = true
@@ -41,7 +41,7 @@ form.addEventListener('submit', (e) => {
     email: form.email.value,
     content: form.content.value
   }
-  post(url, payload, (err, res) => {
+  post(url, payload, function (err, res) {
     if (err) { return error(err) }
     success()
   })

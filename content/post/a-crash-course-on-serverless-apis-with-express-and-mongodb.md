@@ -513,7 +513,7 @@ Luckily we have development tools like the [Serverless Framework](https://server
 
 If you missed any of the steps above, [here's the repository](https://github.com/adnanrahic/a-crash-course-on-serverless-apis-with-express-and-mongodb) with all the code.
 
-If you want to read some of my previous serverless musings head over to [my profile](https://dev.to/adnanrahic) or [join my newsletter!]
+If you want to read some of my previous serverless musings head over to [my profile](https://dev.to/adnanrahic) or [join my newsletter!](https://upscri.be/b6f3d5/)
 
 Or, take a look at a few of my articles right away:
 
