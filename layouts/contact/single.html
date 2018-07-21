@@ -20,7 +20,8 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 {{ .Content }}
-                <form name="sentMessage" id="contactForm">
+                <!-- <form name="sentMessage" id="contactForm"> -->
+                <form name="sentMessage" action="https://h1ut990ogj.execute-api.us-east-1.amazonaws.com/dev/email/send/formencoded" method="POST">
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Name</label>
@@ -57,4 +58,4 @@
 
 {{ partial "footer.html" . }}
 
-<script src="/js/contact.js"></script>
+<!-- <script src="/js/contact.js"></script> -->
