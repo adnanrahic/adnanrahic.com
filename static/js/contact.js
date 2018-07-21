@@ -1,5 +1,5 @@
 const form = document.getElementById('contactForm')
-const url = 'https://h1ut990ogj.execute-api.us-east-1.amazonaws.com/dev/email/sendJSON'
+const url = 'https://h1ut990ogj.execute-api.us-east-1.amazonaws.com/dev/email/send/json'
 const toast = document.getElementById('toast')
 const submit = document.getElementById('submit')
 
