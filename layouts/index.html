@@ -32,9 +32,9 @@ background-position: 30% 50%;
     </div>
   </div>
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
       <hr>
-      {{ $posts := or .Site.Params.PostSummariesFrontPage 4 }} {{ range first $posts (where .Data.Pages "Type" "post") }} {{ .Render "summary"}} {{ end }}
+      {{ $posts := or .Site.Params.PostSummariesFrontPage 8 }} {{ range first $posts (where .Data.Pages "Type" "post") }} {{ .Render "summary"}} {{ end }}
       <!-- Pager -->
       <ul class="pager">
         <li class="next">
