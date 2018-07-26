@@ -15,7 +15,7 @@ copyright = "Have questions? Shoot me an email, or hit me up on social media! Th
   Description = "Your site description"
   Author = "Adnan Rahić"
   AuthorLink = "https://twitter.com/adnanrahic"
-  postSummariesFrontPage = 4 #Number of post summaries to show on front page, comment out to allow default(4)
+  postSummariesFrontPage = 8 #Number of post summaries to show on front page, comment out to allow default(4)
   showReadTime = true #set to false to exclude read time from header of post
   email = "ado.raha198@gmail.com"
 
