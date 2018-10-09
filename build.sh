@@ -3,7 +3,8 @@ find public -type f -name '*.html' -exec $(npm bin)/html-minifier {} -c htmlmin.
 find public/js -type f -name '*.js' -exec $(npm bin)/babel {} -o {}.out \; -exec mv {}.out {} \;
 sudo apt-get install jpegoptim
 sudo apt-get install optipng
-cd static/img
+cd public/img
 jpegoptim *.jpg
 # optipng *.png
+cd ../..
 cp -R zohoverify ./public/
