@@ -6,4 +6,4 @@ sudo apt-get install optipng
 cd static/img
 jpegoptim *.jpg
 # optipng *.png
-mv zohoverify ./public
+cp -R zohoverify ./public/
