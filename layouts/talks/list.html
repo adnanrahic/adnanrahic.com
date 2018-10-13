@@ -21,7 +21,10 @@ background-image: url('/img/talks-bg-poly.png');
 <!-- Main Content -->
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+      <h2 align="center">Past</h2>
+      <hr>
+
       {{ range (where .Data.Pages "Type" "talks") }} {{ .Render "summary"}} {{ end }}
     </div>
   </div>

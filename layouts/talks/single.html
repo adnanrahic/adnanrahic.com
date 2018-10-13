@@ -1,0 +1,35 @@
+{{ partial "header.html" .}}
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    {{ if isset .Params "image" }}
+    <header class="intro-header b-lazy" data-src="{{ .Params.image }}">
+    {{ else }}
+    <header class="intro-header" style="background-image: url('/img/post-bg.jpg')">
+    {{ end }}
+      <div class="container">
+        <div class="row">
+           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+             <div class="post-heading">
+              <h1>{{ .Title }}</h1>
+              <h3 class="post-subtitle"><b>{{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}</b></h3>
+              <h2 class="subheading">{{ .Description }}</h2>
+             </div>
+           </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <article class="post">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                  {{ .Content }}
+                  {{ partial "comments.html" .}}
+                </div>
+            </div>
+        </div>
+    </article>
+
+{{ partial "footer.html" .}}
