@@ -9,7 +9,7 @@
     </div>
     <div class="col-xs-12">
       <a href="{{ .Params.canonical }}" target="_blank">
-        <h2 class="post-title">{{ .Title }}</h2>
+        <h2 class="post-title">{{ .Title }} {{ if gt .Date now }}<span class="upcoming-tag">upcoming</span>{{ end }}</h2>
         <h3 class="post-subtitle"><b>{{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}</b></h3>
         <h3 class="post-subtitle">{{ .Description }}</h3>
       </a>
