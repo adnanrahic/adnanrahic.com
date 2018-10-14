@@ -1,7 +1,7 @@
 ---
 title: This is what I do.
 description: Software engineer. Evangelist. Teacher. Campsite leader. Writer.
-# image: img/about-bg.jpg
+image: https://adnanrahic.com/img/about-bg.jpg
 dated: 2017-10-29T17:50:03+02:00
 type: about
 layout: single

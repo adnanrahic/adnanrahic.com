@@ -22,11 +22,11 @@
     {{ partial "inline-bootstrap.html" . }}
     <!-- Inline CSS -->
     {{ partial "inline-style.html" . }}
-    
+
     <!-- Canonical URL -->
     {{ if .Params.canonical }}
     <link rel="canonical" href="{{ .Params.canonical }}">
-    {{ end  }}
+    {{ end }}
 
     <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
@@ -42,6 +42,22 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Facebook -->
+    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ end }}" />
+    <meta property="og:image" content="{{ .Params.image }}" />
+    <!-- <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" /> -->
+    <!-- End Facebook -->
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@adnanrahic" />
+    <meta name="twitter:title" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ end }}" />
+    <meta name="twitter:image" content="{{ .Params.image }}" />
+    <!-- <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" /> -->
+    <!-- End Twitter -->
 
 </head>
 
