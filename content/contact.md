@@ -4,6 +4,7 @@ description: Have questions? I have answers (hopefully).
 dated: 2017-10-29T17:50:03+02:00
 type: contact
 layout: single
+image: "https://adnanrahic.com/img/contact-bg.jpg"
 ---
 
 <p>Want to get in touch with me?</p> 
