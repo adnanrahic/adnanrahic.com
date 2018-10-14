@@ -1,20 +1,18 @@
+<hr>
+<br>
 <div class="post-preview">
   <div class="row">
     <div class="col-xs-12">
-      <a href="{{ .Permalink }}">
+      <a href="{{ .Params.canonical }}" target="_blank">
         {{ partial "image.html" .}}
       </a>
     </div>
     <div class="col-xs-12">
-      <a href="{{ .Permalink }}">
+      <a href="{{ .Params.canonical }}" target="_blank">
         <h2 class="post-title">{{ .Title }}</h2>
+        <h3 class="post-subtitle"><b>{{ dateFormat (.Site.Params.DateForm | default "Mon, Jan 2, 2006") .Date }}</b></h3>
         <h3 class="post-subtitle">{{ .Description }}</h3>
       </a>
-      <p class="post-meta">
-        {{ partial "meta.html" .}}
-      </p>
     </div>
   </div>
 </div>
-<hr>
-<br>

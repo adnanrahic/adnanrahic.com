@@ -1,7 +1,9 @@
 {{ partial "header.html" . }}
 
-<header class="intro-header b-lazy" data-src="/img/home-bg.jpg" style="
-background-image: url('/img/home-bg-poly.png');
+<header class="intro-header b-lazy" data-src="/img/talks-bg.jpg" style="
+background-color: rgba(0,0,0,0.5);
+background-position: 30% 50%;
+background-image: url('/img/talks-bg-poly.png');
 ">
   <div class="container">
     <div class="row">
@@ -19,8 +21,9 @@ background-image: url('/img/home-bg-poly.png');
 <!-- Main Content -->
 <div class="container">
   <div class="row">
-    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-      {{ range .Paginator.Pages }} {{ .Render "archive" }} {{ end }} {{ template "_internal/pagination.html" . }}
+    <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
+      <h2 align="center">Past</h2>
+      {{ range (where .Data.Pages "Type" "talks") }} {{ .Render "summary"}} {{ end }}
     </div>
   </div>
 </div>

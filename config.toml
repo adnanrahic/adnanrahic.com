@@ -39,10 +39,14 @@ copyright = "Have questions? Shoot me an email, or hit me up on social media! Th
   url = "/"
   weight = 100
 [[menu.main]]
+  name = "Talks"
+  url = "/talks"
+  weight = 200
+[[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 200
+  weight = 300
 [[menu.main]]
   name = "Contact"
   url = "/contact/"
-  weight = 300
+  weight = 400
