@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ end }}">
-    <meta name="author" content="{{ if .Params.authors }}{{ .Params.authors }}{{ else if .Site.Params.Author }}{{.Site.Params.Author}}{{ end }}">
+    <meta name="author" content="Adnan Rahić">
     <meta name="keywords" content="{{ if .Keywords }}{{ delimit .Keywords ", " }}{{ end }}">
 
 
@@ -44,9 +44,9 @@
     <![endif]-->
 
     <!-- Facebook -->
-    <meta property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
-    <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ end }}" />
-    <meta property="og:image" content="{{ .Params.image }}" />
+    <meta name="title" property="og:title" content="{{ .Title }} | {{ .Site.Title }}" />
+    <meta name="description" property="og:description" content="{{ if .Description }}{{ .Description }}{{ end }}" />
+    <meta name="image" property="og:image" content="{{ .Params.image }}" />
     <!-- <meta property="og:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" /> -->
     <!-- End Facebook -->
 
