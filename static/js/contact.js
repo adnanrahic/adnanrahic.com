@@ -1,20 +1,21 @@
+/* global XMLHttpRequest */
 const form = document.getElementById('contactForm')
 const url = 'https://h1ut990ogj.execute-api.us-east-1.amazonaws.com/dev/email/send/json'
 const toast = document.getElementById('toast')
 const submit = document.getElementById('submit')
 
-function post(url, body, callback) {
-  var req = new XMLHttpRequest();
-  req.open("POST", url, true);
-  req.setRequestHeader("Content-Type", "application/json");
-  req.addEventListener("load", function () {
+function post (url, body, callback) {
+  var req = new XMLHttpRequest()
+  req.open('POST', url, true)
+  req.setRequestHeader('Content-Type', 'application/json')
+  req.addEventListener('load', function () {
     if (req.status < 400) {
-      callback(null, JSON.parse(req.responseText));
+      callback(null, JSON.parse(req.responseText))
     } else {
-      callback(new Error("Request failed: " + req.statusText));
+      callback(new Error('Request failed: ' + req.statusText))
     }
-  });
-  req.send(JSON.stringify(body));
+  })
+  req.send(JSON.stringify(body))
 }
 function success () {
   toast.innerHTML = 'Thanks for sending me a message! I\'ll get in touch with you ASAP. :)'

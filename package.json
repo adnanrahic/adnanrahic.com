@@ -1,7 +1,7 @@
 {
-  "name": "site2",
+  "name": "adnanrahic.com",
   "version": "1.0.0",
-  "description": "**I'm not using this theme anymore.** **New maintainer wanted**",
+  "description": "My Blog.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
