@@ -1,7 +1,7 @@
 baseurl = "https://adnanrahic.com"
 title = "@adnanrahic"
 canonifyurls = true
-paginate = 10
+paginate = 100
 languageCode = "en-us"
 copyright = "Have questions? Shoot me an email, or hit me up on social media! This site was coded with <3 by yours truly."
 # googleAnalytics = "UA-123-45" # delete or comment to disable Google Analytics JS generation
@@ -12,11 +12,11 @@ copyright = "Have questions? Shoot me an email, or hit me up on social media! Th
 
 [params]
   DateForm = "Mon, Jan 2, 2006"
-  Description = "Your site description"
+  Description = "My Blog"
   Author = "Adnan Rahić"
   AuthorLink = "https://twitter.com/adnanrahic"
-  postSummariesFrontPage = 8 #Number of post summaries to show on front page, comment out to allow default(4)
-  showReadTime = true #set to false to exclude read time from header of post
+  postSummariesFrontPage = 100 # Number of post summaries to show on front page, comment out to allow default(4)
+  showReadTime = true # set to false to exclude read time from header of post
   email = "ado.raha198@gmail.com"
 
 [[params.social]]

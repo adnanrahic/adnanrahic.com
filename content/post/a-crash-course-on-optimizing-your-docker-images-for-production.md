@@ -186,4 +186,4 @@ By choosing optimized base images will get you a long way. If you really need th
 
 If you want to check out any of my previous DevOps related articles about Docker and Kubernetes, feel free to head over to [my profile](https://dev.to/adnanrahic).
 
-_Hope you guys and girls enjoyed reading this as much as I enjoyed writing it. Do you think this tutorial will be of help to someone? Do not hesitate to share. Don’t forget to show some love by_ [**_following the Sourcerer blog!_**](https://blog.sourcerer.io)
+_Hope you guys and girls enjoyed reading this as much as I enjoyed writing it. Do you think this tutorial will be of help to someone? Do not hesitate to share._

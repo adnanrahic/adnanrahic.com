@@ -14,7 +14,7 @@ background-image: url('/img/home-poly.png');
           <hr class="small">
           <h2 class="subheading">I <b>author</b> this blog, <b>write code</b> for a living,<br> <b>share my knowledge</b>, and travel the world.</h2>
           <span class="subheading">
-            I've been helping people embrace programming and healthy DevOps practices since 2017.
+            I've been helping people embrace software development and healthy DevOps practices since 2017.
           </span>
           <span class="subheading"><b><a href="/about">Follow me</a> on social media</b> if you like what I do. <br>Or, scroll down to see what I've been hacking on.</span>
         </div>
@@ -32,14 +32,7 @@ background-image: url('/img/home-poly.png');
   </div>
   <div class="row">
     <div class="col-lg-6 col-lg-offset-3 col-md-8 col-md-offset-2">
-      <hr>
-      {{ $posts := or .Site.Params.PostSummariesFrontPage 8 }} {{ range first $posts (where .Data.Pages "Type" "post") }} {{ .Render "summary"}} {{ end }}
-      <!-- Pager -->
-      <ul class="pager">
-        <li class="next">
-          <a href="{{ .Site.BaseURL }}/post/">Older Posts &rarr;</a>
-        </li>
-      </ul>
+      {{ $posts := or .Site.Params.PostSummariesFrontPage 100 }} {{ range first $posts (where .Data.Pages "Type" "post") }} {{ .Render "summary"}} {{ end }}
     </div>
   </div>
 </div>
