@@ -18,11 +18,6 @@
     <link href="{{ .RSSLink }}" rel="feed" type="application/rss+xml" title="{{ .Site.Title }}" />
     {{ end }}
 
-    <!-- Inline Bootstrap -->
-    {{ partial "inline-bootstrap.html" . }}
-    <!-- Inline CSS -->
-    {{ partial "inline-style.html" . }}
-
     <!-- Canonical URL -->
     {{ if .Params.canonical }}
     <link rel="canonical" href="{{ .Params.canonical }}">
@@ -58,6 +53,13 @@
     <meta name="twitter:image" content="{{ .Params.image }}" />
     <!-- <meta name="twitter:image" content="{{ .Site.BaseURL }}{{ .Params.image }}" /> -->
     <!-- End Twitter -->
+
+    <!-- Inline Bootstrap -->
+    {{ partial "inline-bootstrap.html" . }}
+    <!-- Inline CSS -->
+    {{ partial "inline-style.html" . }}
+    <!-- Inline Sematext RUM -->
+    {{ partial "inline-strum.html" . }}
 
 </head>
 

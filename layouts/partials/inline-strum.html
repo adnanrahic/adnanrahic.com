@@ -1,0 +1,17 @@
+<!-- Grab RUM script -->
+<script type="text/javascript">
+  (function(e,t,r,n,a){var c=[];e[a]=function(){c.push(arguments)};
+  e[a].queue=c;var s=t.createElement(r);s.async=1;s.src=n;
+  var u=t.getElementsByTagName(r)[0];u.parentNode.insertBefore(s,u)})
+  (window,document,"script","//dlv9be7z5p95f.cloudfront.net/rum.js","strum");
+</script>
+
+<!-- Config RUM token - Test Env -->
+<script type="text/javascript">
+  strum('config', { token: '9e5a6604-9388-4e0d-9a7c-2fb833107159', 'receiverUrl': 'https://rum-receiver.apps.test.sematext.com' });
+</script>
+
+<!-- Config RUM token - Prod Env -->
+<script type="text/javascript">
+  strum('config', { token: 'dba699fb-c8ec-49e0-8932-87028396d504', 'receiverUrl': 'https://rum-receiver.sematext.com' });
+</script>
