@@ -3,15 +3,10 @@
   (function(e,t,r,n,a){var c=[];e[a]=function(){c.push(arguments)};
   e[a].queue=c;var s=t.createElement(r);s.async=1;s.src=n;
   var u=t.getElementsByTagName(r)[0];u.parentNode.insertBefore(s,u)})
-  (window,document,"script","//dlv9be7z5p95f.cloudfront.net/rum.js","strum");
+  (window,document,"script","//cdn.sematext.com/rum.js","strum");
 </script>
 
-<!-- Config RUM token - Test Env -->
+  <!-- Config RUM token - Prod Env -->
 <script type="text/javascript">
-  strum('config', { token: '9e5a6604-9388-4e0d-9a7c-2fb833107159', 'receiverUrl': 'https://rum-receiver.apps.test.sematext.com' });
-</script>
-
-<!-- Config RUM token - Prod Env -->
-<script type="text/javascript">
-  strum('config', { token: 'dba699fb-c8ec-49e0-8932-87028396d504', 'receiverUrl': 'https://rum-receiver.sematext.com' });
+  strum('config', { token: '8949fac6-13b6-4d91-9b9b-764dfffd2fe4', 'receiverUrl': 'https://rum-receiver.sematext.com' });
 </script>
