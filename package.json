@@ -29,6 +29,6 @@
   "devDependencies": {
     "hugo-cli": "^0.11.0",
     "hugo-lunr": "0.0.4",
-    "standard": "^11.0.1"
+    "standard": "^16.0.4"
   }
 }
