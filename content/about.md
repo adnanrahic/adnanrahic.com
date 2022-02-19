@@ -1,7 +1,7 @@
 ---
 title: This is what I do.
 description: Startup founder, software engineer, speaker, author. Helping people embrace programming since 2017.
-image: https://adnanrahic.com/img/about-bg.jpg
+image: https://adnanrahic.com/img/about-bg-two.jpg
 dated: 2017-10-29T17:50:03+02:00
 type: about
 layout: single
@@ -9,7 +9,7 @@ layout: single
 <h2>A word or two about me</h2>
 <hr>
 <p>
-    Currently working remote as a Developer Evangelist at a crazy successful observability SaaS based out of Brooklyn, NYC called <a href="https://sematext.com/" target="_blank">Sematext.com</a>. Hell bent on creating the most beautiful observability, logging, and debugging platform ever.
+    Currently a Senior Developer Advocate at the biggest Headless BI tool for building data apps called <a href="https://cube.dev/" target="_blank">Cube</a>.
 </p> 
 <p>
     My passion is teaching. I've taught JavaScript, DevOps, and Serverless topics at various venues. But, one place will always be special. The <a href="http://www.academy387.com/lecturers/adnan-rahic" target="_blank">Academy387.com</a> in Sarajevo is where I give back to my community in Sarajevo. My love for teaching was channeled into creating the first online learning startup in my home city of Sarajevo called <a href="https://bookvar.co/" target="_blank">Bookvar.co</a> which is still active today.
@@ -57,5 +57,5 @@ layout: single
 <h2>Available for</h2>
 <hr>
 <p>
-    As a Developer Evangelist, and speaker, I get in touch with a lot of people who are in need of a mentor. Most of them just need someone to talk to about code. Don't we all? Feel free to shoot me a tweet or a direct message if you want to chat. Or, if you're ever in Sarajevo, please be sure to let me know, I'm always down for drinks.
+    As a Developer Advocate, and speaker, I get in touch with a lot of people who are in need of a mentor. Most of them just need someone to talk to about code. Don't we all? Feel free to shoot me a tweet or a direct message if you want to chat. Or, if you're ever in Sarajevo, please be sure to let me know, I'm always down for drinks.
 </p> 
