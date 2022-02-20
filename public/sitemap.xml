@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://adnanrahic.com/post/a-crash-course-on-optimizing-your-docker-images-for-production/</loc>
+    <lastmod>2018-11-15T00:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/hacktoberfest-2018/</loc>
+    <lastmod>2018-10-27T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/webcamp-zagreb-october-2018/</loc>
+    <lastmod>2018-10-05T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/a-crash-course-on-serverless-with-aws-image-resize-on-the-fly-with-lambda-and-s3/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/budapestjs-september-2018/</loc>
+    <lastmod>2018-09-20T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/containers-vs-serverless-from-a-devops-standpoint/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/a-crash-course-on-serverless-with-aws-triggering-lambda-with-sns-messaging/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/a-crash-course-on-serverless-side-rendering-with-vuejs-nuxtjs-and-aws-lambda/</loc>
+    <lastmod>2018-08-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/building-a-serverless-contact-form-with-aws-lambda-and-aws-ses/</loc>
+    <lastmod>2018-07-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/a-crash-course-on-serverless-apis-with-express-and-mongodb/</loc>
+    <lastmod>2018-07-02T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/</loc>
+    <lastmod>2018-07-02T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/cloud-native-computing-sarajevo-meetup-july-2018/</loc>
+    <lastmod>2018-07-02T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/serverless-vienna-june-2018/</loc>
+    <lastmod>2018-06-26T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/aws-user-group-estonia-june-2018/</loc>
+    <lastmod>2018-06-21T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/how-to-deploy-a-nodejs-application-to-aws-lambda-using-serverless/</loc>
+    <lastmod>2018-06-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/wearedevelopers-workshop-may-2018/</loc>
+    <lastmod>2018-05-15T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/jssarajevo-april-2018/</loc>
+    <lastmod>2018-04-21T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/open-web-meetup-march-2018/</loc>
+    <lastmod>2018-03-27T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/hour-of-code-sarajevo-2017/</loc>
+    <lastmod>2017-12-04T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/open-web-sarajevo-novermber-2017/</loc>
+    <lastmod>2017-11-28T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/aws-user-group-bosnia-november-2017/</loc>
+    <lastmod>2017-11-17T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/hacktoberfest-2017/</loc>
+    <lastmod>2017-10-14T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/open-web-sarajevo-september-2017/</loc>
+    <lastmod>2017-09-26T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/how-to-start-down-the-path-of-the-programmer/</loc>
+    <lastmod>2017-06-05T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/jssarajevo-april-2017/</loc>
+    <lastmod>2017-04-22T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/hello-world-app-with-nodejs-and-express/</loc>
+    <lastmod>2017-01-09T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/post/can-you-learn-to-code-in-4-weeks/</loc>
+    <lastmod>2016-12-03T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/aws/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/contact/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/containers/</loc>
+    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/devops/</loc>
+    <lastmod>2018-11-15T00:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/categories/devops/</loc>
+    <lastmod>2018-11-15T00:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/docker/</loc>
+    <lastmod>2018-11-15T00:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/</loc>
+    <lastmod>2018-11-15T00:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/javascript/</loc>
+    <lastmod>2017-01-09T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/lambda/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/mongodb/</loc>
+    <lastmod>2018-07-02T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/motivation/</loc>
+    <lastmod>2017-06-05T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/categories/motivation/</loc>
+    <lastmod>2017-06-05T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/node/</loc>
+    <lastmod>2018-11-15T00:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/nodejs/</loc>
+    <lastmod>2017-01-09T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/categories/nodejs/</loc>
+    <lastmod>2017-01-09T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/nuxtjs/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/programming/</loc>
+    <lastmod>2017-06-05T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/s3/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/serverless/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/categories/serverless/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/showdev/</loc>
+    <lastmod>2018-11-15T00:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/startup/</loc>
+    <lastmod>2017-06-05T20:03:26+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/</loc>
+    <lastmod>2018-09-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/talks/</loc>
+    <lastmod>2018-10-27T20:03:26+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/about/</loc>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/vuejs/</loc>
+    <lastmod>2018-08-30T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://adnanrahic.com/tags/webdev/</loc>
+    <lastmod>2018-06-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+</urlset>

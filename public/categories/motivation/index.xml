@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Motivation on @adnanrahic</title>
+    <link>https://adnanrahic.com/categories/motivation/</link>
+    <description>Recent content in Motivation on @adnanrahic</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Have questions? Shoot me an email, or hit me up on social media! This site was coded with &lt;3 by yours truly.</copyright>
+    <lastBuildDate>Mon, 05 Jun 2017 20:03:26 +0200</lastBuildDate>
+    
+	<atom:link href="https://adnanrahic.com/categories/motivation/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>How to start down the path of the programmer?</title>
+      <link>https://adnanrahic.com/post/how-to-start-down-the-path-of-the-programmer/</link>
+      <pubDate>Mon, 05 Jun 2017 20:03:26 +0200</pubDate>
+      
+      <guid>https://adnanrahic.com/post/how-to-start-down-the-path-of-the-programmer/</guid>
+      <description>One does not simply become a programmer. The journey is long and hard. It&amp;rsquo;s not for everyone. There are many prerequisites you would need in turn to become a proficient software developer. Most important of all is to have grit. No amount of talent can replace hard-headedness and raw willpower of getting to the goal you set for yourself. In the end, nothing else matters. Achieving your personal goals is what we all strive for.</description>
+    </item>
+    
+    <item>
+      <title>Can you learn to code in 4 weeks?</title>
+      <link>https://adnanrahic.com/post/can-you-learn-to-code-in-4-weeks/</link>
+      <pubDate>Sat, 03 Dec 2016 20:03:26 +0200</pubDate>
+      
+      <guid>https://adnanrahic.com/post/can-you-learn-to-code-in-4-weeks/</guid>
+      <description>Well, no. Isn’t it obvious? However, don’t get your spirits down, you can indeed take a huge leap in the right direction on your path of becoming a programmer.
+The whole concept of becoming a developer is a journey. Not a single one of us who are currently working as software engineers have had a moment of clarity where we said to ourselves…
+ “Yep, I’m a developer now.”
+ You might be asking yourself, well what about all the courses out there.</description>
+    </item>
+    
+  </channel>
+</rss>
