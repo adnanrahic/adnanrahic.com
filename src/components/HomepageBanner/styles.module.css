@@ -1,0 +1,26 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 200px;
+  width: 200px;
+}
+
+.overviewImageBg {
+  padding: 12rem;
+  /* background-image: url('/img/home.png'); */
+  background-size: cover; /* Cover the entire div, maintaining aspect ratio */
+  
+  /* background-position: center; */
+
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+
+  background-color: rgba(0, 0, 0, 0.5);
+  background-position: 50% 50%;
+
+  border-radius: var(--ifm-card-border-radius);
+}
