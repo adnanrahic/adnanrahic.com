@@ -73,29 +73,62 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/docusaurus-social-card.jpg",
+      image: "img/home.png",
       colorMode: {
         defaultMode: "light",
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       metadata: [
-        { name: "title", content: "Hi! I'm Adnan Rahić" },
+        // Basic Meta Tags
         {
           name: "description",
           content:
-            "I help developer-first companies grow for a living, craft code, and share knowledge at events across the globe. I've been helping products build DevRel programs since 2018.",
+            "I help developer-first companies grow for a living, craft code, and share knowledge at events across the globe. I've been helping products build DevRel programs since 2018",
         },
         {
           name: "keywords",
           content:
             "Developer Relations, DevRel, Product Marketing, Product Growth, Solution Engineering",
         },
+        { name: "author", content: "Adnan Rahic" },
+
+        // Open Graph / Facebook
+        { property: "og:type", content: "website" },
+        { property: "og:title", content: "Hi! I'm Adnan Rahić" },
         {
-          name: "og:image",
+          property: "og:description",
+          content:
+            "I help developer-first companies grow for a living, craft code, and share knowledge at events across the globe. I've been helping products build DevRel programs since 2018",
+        },
+        { property: "og:url", content: "https://adnanrahic.com" },
+        {
+          property: "og:image",
           content: "https://adnanrahic.com/img/home.png",
         },
+
+        // Twitter
         { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:creator", content: "@adnanrahic" },
+        { name: "twitter:title", content: "@adnanrahic" },
+        {
+          name: "twitter:description",
+          content:
+            "I help developer-first companies grow for a living, craft code, and share knowledge at events across the globe. I've been helping products build DevRel programs since 2018",
+        },
+        {
+          name: "twitter:image",
+          content: "https://adnanrahic.com/img/home.png",
+        },
+
+        // Robots
+        { name: "robots", content: "index, follow" },
+
+        // Viewport and Mobile Optimization
+        { name: "viewport", content: "width=device-width, initial-scale=1" },
+
+        // Theme Color for Mobile Browsers
+        { name: "theme-color", content: "#000000" }, // Set to your site's main color
       ],
       navbar: {
         title: "@adnanrahic",
