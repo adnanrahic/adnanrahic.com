@@ -10,7 +10,7 @@ import { themes as prismThemes } from "prism-react-renderer";
 const config = {
   title: "Hi! I'm Adnan Rahić",
   tagline:
-    "I help developer-first companies grow for a living, craft code, and share knowledge at events across the globe. I've been helping products build DevRel programs since 2017. Follow me on social or check out my blog to see what I've been hacking on.",
+    "I help developer-first companies grow for a living, craft code, and share knowledge at events across the globe. I've been helping products build DevRel programs since 2018.",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -79,6 +79,24 @@ const config = {
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
+      metadata: [
+        { name: "title", content: "Hi! I'm Adnan Rahić" },
+        {
+          name: "description",
+          content:
+            "I help developer-first companies grow for a living, craft code, and share knowledge at events across the globe. I've been helping products build DevRel programs since 2018.",
+        },
+        {
+          name: "keywords",
+          content:
+            "Developer Relations, DevRel, Product Marketing, Product Growth, Solution Engineering",
+        },
+        {
+          name: "og:image",
+          content: "https://adnanrahic.com/img/home.png",
+        },
+        { name: "twitter:card", content: "summary_large_image" },
+      ],
       navbar: {
         title: "@adnanrahic",
         logo: {
