@@ -1,0 +1,47 @@
+/* Container styling */
+.cta_container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 2rem;
+  width: 300px;
+  margin: 0 auto;
+}
+
+/* Circular Image */
+.cta_image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Content Styling */
+.cta_content h2 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.cta_content p {
+  font-size: 1rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+/* Button Styling */
+.cta_button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta_button:hover {
+  background-color: #357abd;
+}

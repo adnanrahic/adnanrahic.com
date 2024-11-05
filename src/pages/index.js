@@ -5,6 +5,8 @@ import Layout from "@theme/Layout";
 import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import HomepageOverview from "@site/src/components/HomepageOverview";
 import HomepageBanner from "@site/src/components/HomepageBanner";
+import HomepageCounters from "@site/src/components/HomepageCounters";
+import GetInTouch from "@site/src/components/GetInTouch";
 
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
@@ -31,6 +33,7 @@ function HomepageHeader() {
                 and share knowledge at events across the globe. I've been
                 helping products build DevRel programs since 2018.
               </p>
+              <HomepageCounters />
               <div className={styles.buttons}>
                 <Link
                   className="button button--secondary button--lg"
@@ -56,16 +59,13 @@ function HomepageHeader() {
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description={`${siteConfig.description}`}
-    >
+    <Layout title={`${siteConfig.title}`} description={`${siteConfig.tagline}`}>
       <HomepageHeader />
       <main>
         <HomepageFeatures />
         <HomepageBanner imageUrl="/img/home.png" />
         <HomepageOverview />
-        <HomepageBanner imageUrl="/img/home.jpg" />
+        <GetInTouch />
       </main>
     </Layout>
   );

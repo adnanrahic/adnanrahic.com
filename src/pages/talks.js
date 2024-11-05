@@ -38,8 +38,8 @@ export default function Talks() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description={`${siteConfig.description}`}
+      title={`Hello from @adnanrahic's talks!`}
+      description={`${siteConfig.tagline}`}
     >
       <TalksHeader />
       <main>

@@ -76,7 +76,7 @@ div[class^='hf__card'] .card {
   margin: 10px 0;
   background-color: var(--ifm-background-surface-color);
   color: var(--ifm-font-color-base);
-  /* border: 1px solid var(--ifm-color-emphasis-300); */
+  border: 1px solid var(--ifm-color-emphasis-300);
   transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
   box-shadow: none;
 }
@@ -99,6 +99,45 @@ div[class^='hf__card'] .card a {
 div[class^='hf__card'] .card a:hover {
   color: var(--ifm-font-color-base);
   text-decoration: inherit;
+}
+
+/* C */
+
+div[class^='c__card'] .card {
+  margin: 0;
+  background-color: var(--ifm-background-surface-color);
+  color: var(--ifm-font-color-base);
+  /* border: 1px solid var(--ifm-color-emphasis-300); */
+  transition: border-color var(--ifm-transition-fast) var(--ifm-transition-timing-default);
+  box-shadow: none;
+}
+
+div[class^='c__card'] .card:hover {
+  /* border: 1px solid var(--ifm-color-primary); */
+  box-shadow: none;
+}
+
+div[class^='c__card'] .card h3 {
+  margin-bottom: 10px;
+  /* line-height: 2rem; */
+}
+
+div[class^='c__card'] .card a {
+  color: var(--ifm-font-color-base);
+  text-decoration: inherit;
+}
+
+div[class^='c__card'] .card a:hover {
+  color: var(--ifm-font-color-base);
+  text-decoration: inherit;
+}
+
+div[class^='c__card'] .card .card__body {
+  padding: 0;
+}
+
+div[class^='c__card'] .card .card__body h2 {
+  margin: 0;
 }
 
 /* T */

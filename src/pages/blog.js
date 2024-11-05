@@ -37,8 +37,8 @@ export default function Blog() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description={`${siteConfig.description}`}
+      title={`Hello from @adnanrahic's blog!`}
+      description={`${siteConfig.tagline}`}
     >
       <BlogHeader />
       <main>

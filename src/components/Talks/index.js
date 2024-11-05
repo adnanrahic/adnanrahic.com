@@ -67,21 +67,21 @@ const TalksList = [
     image: "/img/webcampzg1.jpg",
   },
   {
-    title: "Budapest JS Meetup",
+    title: "Budapest JS Meetup 2018",
     description: (
       <>A crash course on Serverless APIs with Express and MongoDB</>
     ),
     image: "/img/budapestjs.jpeg",
   },
   {
-    title: "Serverless Vienna Meetup",
+    title: "Serverless Vienna Meetup 2018",
     description: (
       <>How to deploy a Node.js app to AWS Lambda using Serverless</>
     ),
-    image: "/img/serverless-vienna.jpeg",
+    image: "/img/serverlessvienna.jpeg",
   },
   {
-    title: "AWS User Group Estonia",
+    title: "AWS User Group Estonia 2018",
     description: <>Getting started with AWS Lambda and Node.js</>,
     image: "/img/home.jpg",
   },
