@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "./styles.module.css";
+import styles from "./styles.module.css";
 
 const IncrementalCounter = ({ target, duration }) => {
   const [count, setCount] = useState(0);
@@ -20,7 +20,7 @@ const IncrementalCounter = ({ target, duration }) => {
     return () => clearInterval(interval);
   }, [target, duration]);
 
-  return <span className="counter">{count}</span>;
+  return <span className={styles.counter}>{count}</span>;
 };
 
 export default IncrementalCounter;

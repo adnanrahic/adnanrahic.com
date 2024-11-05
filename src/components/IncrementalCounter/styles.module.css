@@ -1,5 +1,6 @@
 .counter {
-  animation: fadeInScale 0.5s ease-in-out;
+  font-size: 2rem;
+  animation: fadeInScale 1s ease-in-out;
 }
 
 @keyframes fadeInScale {

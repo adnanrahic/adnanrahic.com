@@ -18,9 +18,7 @@ export default function HomepageCounters() {
                       <IncrementalCounter target={100} duration={5000} />
                       K+
                     </Heading>
-                    <p className="text--center padding-horiz--md text--normal">
-                      Words Written
-                    </p>
+                    <p className="text--center text--light">Words Written</p>
                   </div>
                 </div>
               </div>
@@ -37,9 +35,7 @@ export default function HomepageCounters() {
                       <IncrementalCounter target={20} duration={4000} />
                       K+
                     </Heading>
-                    <p className="text--center padding-horiz--md text--normal">
-                      Audience
-                    </p>
+                    <p className="text--center text--light">Audience</p>
                   </div>
                 </div>
               </div>
@@ -56,9 +52,7 @@ export default function HomepageCounters() {
                       <IncrementalCounter target={3} duration={3000} />
                       K+
                     </Heading>
-                    <p className="text--center padding-horiz--md text--normal">
-                      GitHub Stars
-                    </p>
+                    <p className="text--center text--light">GitHub Stars</p>
                   </div>
                 </div>
               </div>

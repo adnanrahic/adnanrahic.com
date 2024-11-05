@@ -28,20 +28,3 @@
   font-size: 1rem;
   margin: 0.5rem 0 1.5rem;
 }
-
-/* Button Styling */
-.cta_button {
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  font-weight: bold;
-  color: #fff;
-  background-color: #4a90e2;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
-}
-
-.cta_button:hover {
-  background-color: #357abd;
-}

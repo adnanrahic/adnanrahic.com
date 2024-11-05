@@ -11,8 +11,26 @@ import GetInTouch from "@site/src/components/GetInTouch";
 import Heading from "@theme/Heading";
 import styles from "./index.module.css";
 
+function HomepageButtons() {
+  return (
+    <div className={styles.buttons}>
+      <Link
+        className="button button--secondary button--lg"
+        to="https://bento.me/adnanrahic"
+      >
+        Social 🎥
+      </Link>
+      <Link
+        className="button button--outline button--secondary button--lg"
+        to="/blog"
+      >
+        Blog 📚
+      </Link>
+    </div>
+  );
+}
+
 function HomepageHeader() {
-  const { siteConfig } = useDocusaurusContext();
   return (
     <div className={clsx(styles.heroWrapper)}>
       <header className={clsx("hero hero--primary", styles.heroBanner)}>
@@ -34,20 +52,7 @@ function HomepageHeader() {
                 helping products build DevRel programs since 2018.
               </p>
               <HomepageCounters />
-              <div className={styles.buttons}>
-                <Link
-                  className="button button--secondary button--lg"
-                  to="https://bento.me/adnanrahic"
-                >
-                  Social 🎥
-                </Link>
-                <Link
-                  className="button button--outline button--secondary button--lg"
-                  to="/blog"
-                >
-                  Blog 📚
-                </Link>
-              </div>
+              <GetInTouch />
             </div>
           </div>
         </div>
