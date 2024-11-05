@@ -11,7 +11,7 @@ export default function HomepageBanner({ imageUrl }) {
       <section>
         <div className="container">
           <div className="row">
-            <div className="col col--12 col--offset-0">
+            <div className="col col--12">
               <div
                 className={clsx(styles.overviewImageBg)}
                 style={backgroundStyle}

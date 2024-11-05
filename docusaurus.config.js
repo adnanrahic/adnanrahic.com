@@ -68,7 +68,15 @@ const config = {
       }),
     ],
   ],
-
+  plugins: [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-Q8F7LQM07L", // Replace with your Google Analytics ID
+        anonymizeIP: true, // Optional: true or false, anonymize visitors' IP addresses
+      },
+    ],
+  ],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
